@@ -32,12 +32,6 @@
 // getSize
 //
 
-template< typename ContainerType >
-auto getSize(const ContainerType & container) -> decltype(container.size())
-{
-	return container.size();
-}
-
 #if defined(ARDUINO)
 
 template< typename Type, size_t size >
