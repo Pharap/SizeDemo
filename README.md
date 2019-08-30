@@ -102,7 +102,7 @@ That's going to become very tedious.
 
 ### Two problems, one solution
 
-So essentially there are three problems:
+So essentially there are two problems:
 1. Having to write a new function for every single type variation
 2. The function accepts pointers when it shouldn't, which leads to the calculated result being incorrect
 
